@@ -141,14 +141,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="4hJ-Pz-gAd">
-                                <rect key="frame" x="50" y="153" width="293" height="40"/>
+                                <rect key="frame" x="46.666666666666657" y="133" width="300" height="50"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="2C8-nZ-RBn"/>
+                                    <constraint firstAttribute="height" constant="50" id="Iab-1w-Ar8"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksf-yT-4p2">
-                                <rect key="frame" x="141" y="238" width="111" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ksf-yT-4p2">
+                                <rect key="frame" x="154.33333333333334" y="233" width="84.666666666666657" height="50"/>
                                 <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="7Dw-7T-n2x"/>
+                                </constraints>
                                 <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="追加">
@@ -162,11 +169,10 @@
                         <viewLayoutGuide key="safeArea" id="TMK-1q-sdn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ksf-yT-4p2" firstAttribute="centerX" secondItem="GMY-af-uPz" secondAttribute="centerX" id="61H-aq-16r"/>
-                            <constraint firstItem="ksf-yT-4p2" firstAttribute="top" secondItem="4hJ-Pz-gAd" secondAttribute="bottom" constant="50" id="66o-IG-UGn"/>
-                            <constraint firstItem="4hJ-Pz-gAd" firstAttribute="leading" secondItem="TMK-1q-sdn" secondAttribute="leading" constant="50" id="PaG-hn-kbC"/>
-                            <constraint firstItem="4hJ-Pz-gAd" firstAttribute="top" secondItem="TMK-1q-sdn" secondAttribute="top" constant="50" id="gtY-cs-p9I"/>
-                            <constraint firstItem="TMK-1q-sdn" firstAttribute="trailing" secondItem="4hJ-Pz-gAd" secondAttribute="trailing" constant="50" id="suQ-7C-ZeY"/>
+                            <constraint firstItem="4hJ-Pz-gAd" firstAttribute="top" secondItem="TMK-1q-sdn" secondAttribute="top" constant="30" id="GF3-QS-AFh"/>
+                            <constraint firstItem="ksf-yT-4p2" firstAttribute="centerX" secondItem="GMY-af-uPz" secondAttribute="centerX" id="Kn9-LC-fL0"/>
+                            <constraint firstItem="ksf-yT-4p2" firstAttribute="top" secondItem="4hJ-Pz-gAd" secondAttribute="bottom" constant="50" id="VJG-kY-ygA"/>
+                            <constraint firstItem="4hJ-Pz-gAd" firstAttribute="centerX" secondItem="GMY-af-uPz" secondAttribute="centerX" id="xFR-BK-iNx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="W31-hk-nSi"/>
